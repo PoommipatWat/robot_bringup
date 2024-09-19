@@ -1,0 +1,57 @@
+[1.065s] Invoking command in '/home/poommipat/abu/ExoReality/workspace_ws/src/robot_bringup': PYTHONPATH=/home/poommipat/abu/ExoReality/workspace_ws/src/robot_bringup/build/robot_bringup/prefix_override:/home/poommipat/abu/ExoReality/workspace_ws/src/robot_bringup/install/robot_bringup/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base build/robot_bringup build --build-base /home/poommipat/abu/ExoReality/workspace_ws/src/robot_bringup/build/robot_bringup/build install --record /home/poommipat/abu/ExoReality/workspace_ws/src/robot_bringup/build/robot_bringup/install.log --single-version-externally-managed install_data
+[1.512s] running egg_info
+[1.512s] creating build/robot_bringup/robot_bringup.egg-info
+[1.530s] writing build/robot_bringup/robot_bringup.egg-info/PKG-INFO
+[1.530s] writing dependency_links to build/robot_bringup/robot_bringup.egg-info/dependency_links.txt
+[1.530s] writing entry points to build/robot_bringup/robot_bringup.egg-info/entry_points.txt
+[1.531s] writing requirements to build/robot_bringup/robot_bringup.egg-info/requires.txt
+[1.531s] writing top-level names to build/robot_bringup/robot_bringup.egg-info/top_level.txt
+[1.531s] writing manifest file 'build/robot_bringup/robot_bringup.egg-info/SOURCES.txt'
+[1.568s] reading manifest file 'build/robot_bringup/robot_bringup.egg-info/SOURCES.txt'
+[1.569s] writing manifest file 'build/robot_bringup/robot_bringup.egg-info/SOURCES.txt'
+[1.569s] running build
+[1.569s] running build_py
+[1.569s] creating /home/poommipat/abu/ExoReality/workspace_ws/src/robot_bringup/build/robot_bringup/build
+[1.569s] creating /home/poommipat/abu/ExoReality/workspace_ws/src/robot_bringup/build/robot_bringup/build/lib
+[1.569s] creating /home/poommipat/abu/ExoReality/workspace_ws/src/robot_bringup/build/robot_bringup/build/lib/robot_bringup
+[1.569s] copying robot_bringup/__init__.py -> /home/poommipat/abu/ExoReality/workspace_ws/src/robot_bringup/build/robot_bringup/build/lib/robot_bringup
+[1.569s] copying robot_bringup/bringup.py -> /home/poommipat/abu/ExoReality/workspace_ws/src/robot_bringup/build/robot_bringup/build/lib/robot_bringup
+[1.570s] copying robot_bringup/joy.py -> /home/poommipat/abu/ExoReality/workspace_ws/src/robot_bringup/build/robot_bringup/build/lib/robot_bringup
+[1.570s] copying robot_bringup/odom.py -> /home/poommipat/abu/ExoReality/workspace_ws/src/robot_bringup/build/robot_bringup/build/lib/robot_bringup
+[1.570s] running install
+[1.574s] running install_lib
+[1.593s] creating /home/poommipat/abu/ExoReality/workspace_ws/src/robot_bringup/install/robot_bringup/lib/python3.10/site-packages/robot_bringup
+[1.593s] copying /home/poommipat/abu/ExoReality/workspace_ws/src/robot_bringup/build/robot_bringup/build/lib/robot_bringup/__init__.py -> /home/poommipat/abu/ExoReality/workspace_ws/src/robot_bringup/install/robot_bringup/lib/python3.10/site-packages/robot_bringup
+[1.593s] copying /home/poommipat/abu/ExoReality/workspace_ws/src/robot_bringup/build/robot_bringup/build/lib/robot_bringup/bringup.py -> /home/poommipat/abu/ExoReality/workspace_ws/src/robot_bringup/install/robot_bringup/lib/python3.10/site-packages/robot_bringup
+[1.593s] copying /home/poommipat/abu/ExoReality/workspace_ws/src/robot_bringup/build/robot_bringup/build/lib/robot_bringup/joy.py -> /home/poommipat/abu/ExoReality/workspace_ws/src/robot_bringup/install/robot_bringup/lib/python3.10/site-packages/robot_bringup
+[1.593s] copying /home/poommipat/abu/ExoReality/workspace_ws/src/robot_bringup/build/robot_bringup/build/lib/robot_bringup/odom.py -> /home/poommipat/abu/ExoReality/workspace_ws/src/robot_bringup/install/robot_bringup/lib/python3.10/site-packages/robot_bringup
+[1.593s] byte-compiling /home/poommipat/abu/ExoReality/workspace_ws/src/robot_bringup/install/robot_bringup/lib/python3.10/site-packages/robot_bringup/__init__.py to __init__.cpython-310.pyc
+[1.594s] byte-compiling /home/poommipat/abu/ExoReality/workspace_ws/src/robot_bringup/install/robot_bringup/lib/python3.10/site-packages/robot_bringup/bringup.py to bringup.cpython-310.pyc
+[1.594s] byte-compiling /home/poommipat/abu/ExoReality/workspace_ws/src/robot_bringup/install/robot_bringup/lib/python3.10/site-packages/robot_bringup/joy.py to joy.cpython-310.pyc
+[1.595s] byte-compiling /home/poommipat/abu/ExoReality/workspace_ws/src/robot_bringup/install/robot_bringup/lib/python3.10/site-packages/robot_bringup/odom.py to odom.cpython-310.pyc
+[1.596s] running install_data
+[1.596s] creating /home/poommipat/abu/ExoReality/workspace_ws/src/robot_bringup/install/robot_bringup/share/ament_index
+[1.596s] creating /home/poommipat/abu/ExoReality/workspace_ws/src/robot_bringup/install/robot_bringup/share/ament_index/resource_index
+[1.596s] creating /home/poommipat/abu/ExoReality/workspace_ws/src/robot_bringup/install/robot_bringup/share/ament_index/resource_index/packages
+[1.596s] copying resource/robot_bringup -> /home/poommipat/abu/ExoReality/workspace_ws/src/robot_bringup/install/robot_bringup/share/ament_index/resource_index/packages
+[1.596s] copying package.xml -> /home/poommipat/abu/ExoReality/workspace_ws/src/robot_bringup/install/robot_bringup/share/robot_bringup
+[1.596s] creating /home/poommipat/abu/ExoReality/workspace_ws/src/robot_bringup/install/robot_bringup/share/robot_bringup/launch
+[1.596s] copying launch/cartographer.launch.py -> /home/poommipat/abu/ExoReality/workspace_ws/src/robot_bringup/install/robot_bringup/share/robot_bringup/launch
+[1.596s] copying launch/nav2.launch.py -> /home/poommipat/abu/ExoReality/workspace_ws/src/robot_bringup/install/robot_bringup/share/robot_bringup/launch
+[1.596s] copying launch/robot_bringup.launch.py -> /home/poommipat/abu/ExoReality/workspace_ws/src/robot_bringup/install/robot_bringup/share/robot_bringup/launch
+[1.597s] creating /home/poommipat/abu/ExoReality/workspace_ws/src/robot_bringup/install/robot_bringup/share/robot_bringup/config
+[1.597s] copying config/cartographer.lua -> /home/poommipat/abu/ExoReality/workspace_ws/src/robot_bringup/install/robot_bringup/share/robot_bringup/config
+[1.597s] copying config/ekf.yaml -> /home/poommipat/abu/ExoReality/workspace_ws/src/robot_bringup/install/robot_bringup/share/robot_bringup/config
+[1.597s] copying config/nav2_params.yaml -> /home/poommipat/abu/ExoReality/workspace_ws/src/robot_bringup/install/robot_bringup/share/robot_bringup/config
+[1.597s] creating /home/poommipat/abu/ExoReality/workspace_ws/src/robot_bringup/install/robot_bringup/share/robot_bringup/maps
+[1.597s] copying maps/firstmap.yaml -> /home/poommipat/abu/ExoReality/workspace_ws/src/robot_bringup/install/robot_bringup/share/robot_bringup/maps
+[1.597s] copying maps/wrg2024_map.yaml -> /home/poommipat/abu/ExoReality/workspace_ws/src/robot_bringup/install/robot_bringup/share/robot_bringup/maps
+[1.597s] copying maps/wrg2024_map.pgm -> /home/poommipat/abu/ExoReality/workspace_ws/src/robot_bringup/install/robot_bringup/share/robot_bringup/maps
+[1.598s] copying maps/firstmap.pgm -> /home/poommipat/abu/ExoReality/workspace_ws/src/robot_bringup/install/robot_bringup/share/robot_bringup/maps
+[1.598s] running install_egg_info
+[1.616s] Copying build/robot_bringup/robot_bringup.egg-info to /home/poommipat/abu/ExoReality/workspace_ws/src/robot_bringup/install/robot_bringup/lib/python3.10/site-packages/robot_bringup-0.0.0-py3.10.egg-info
+[1.617s] running install_scripts
+[1.686s] Installing robot_bringup script to /home/poommipat/abu/ExoReality/workspace_ws/src/robot_bringup/install/robot_bringup/lib/robot_bringup
+[1.686s] Installing robot_odom script to /home/poommipat/abu/ExoReality/workspace_ws/src/robot_bringup/install/robot_bringup/lib/robot_bringup
+[1.686s] writing list of installed files to '/home/poommipat/abu/ExoReality/workspace_ws/src/robot_bringup/build/robot_bringup/install.log'
+[1.721s] Invoked command in '/home/poommipat/abu/ExoReality/workspace_ws/src/robot_bringup' returned '0': PYTHONPATH=/home/poommipat/abu/ExoReality/workspace_ws/src/robot_bringup/build/robot_bringup/prefix_override:/home/poommipat/abu/ExoReality/workspace_ws/src/robot_bringup/install/robot_bringup/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base build/robot_bringup build --build-base /home/poommipat/abu/ExoReality/workspace_ws/src/robot_bringup/build/robot_bringup/build install --record /home/poommipat/abu/ExoReality/workspace_ws/src/robot_bringup/build/robot_bringup/install.log --single-version-externally-managed install_data

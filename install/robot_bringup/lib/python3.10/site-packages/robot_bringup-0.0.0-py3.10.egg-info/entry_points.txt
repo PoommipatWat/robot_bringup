@@ -1,0 +1,3 @@
+[console_scripts]
+robot_bringup = robot_bringup.bringup:main
+robot_odom = robot_bringup.odom:main
