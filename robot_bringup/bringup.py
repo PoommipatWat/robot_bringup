@@ -88,8 +88,8 @@ class Bringup(Node):
         self.rpm = Twist()
 
         self.wheel_diameter = 0.082
-        self.wheel_distance = 182.0/1000.0
-        self.max_rpm = 165
+        self.wheel_distance = 0.10594374972
+        self.max_rpm = 400
         self.factor_rpm = 0.85
 
         self.omni = Omni_kinematics(self.wheel_distance, self.wheel_diameter/2)
@@ -102,7 +102,7 @@ class Bringup(Node):
         self.cmd_vel = msg
 
     def cmd_vel_callback2(self, msg):
-        vx, vy, w = self.omni.forward_omni(msg.linear.x, msg.linear.y, msg.linear.z, msg.angular.x)
+        vx, vy, w = self.omni.forward_omni(msg.linear.x, msg.linear.y, msg.angular.x, msg.angular.y)
         self.rpm.linear.x = vx
         self.rpm.linear.y = vy
         self.rpm.angular.z = w
@@ -110,10 +110,10 @@ class Bringup(Node):
     def timer_callback(self):
         rpm = self.omni.inverse_omni(self.cmd_vel.linear.x, self.cmd_vel.linear.y, -self.cmd_vel.angular.z, self.max_rpm*self.factor_rpm, filter=True)
         rpm_msg = Twist()
-        rpm_msg.linear.x = rpm[0]
-        rpm_msg.linear.y = rpm[1]
-        rpm_msg.linear.z = rpm[2]
-        rpm_msg.angular.x = rpm[3]  # Added fourth wheel RPM
+        rpm_msg.linear.x = rpm[0]   # RPM of wheel 1
+        rpm_msg.linear.y = rpm[1]   # RPM of wheel 2
+        rpm_msg.angular.x = rpm[2]  # RPM of wheel 3
+        rpm_msg.angular.y = rpm[3]  # RPM of wheel 4
         self.publisher_.publish(rpm_msg)
 
         vel_msg = Twist()
